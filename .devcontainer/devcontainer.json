@@ -1,0 +1,12 @@
+{
+	"name": "Alejandro Rusos's terminal settings",
+
+	// Base Ubuntu 22.04
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+
+	// Forward DPella server default port
+	"forwardPorts": [8081],
+
+	// Some setup needed after creation
+	"postCreateCommand": ".devcontainer/postCreate.sh",
+}
